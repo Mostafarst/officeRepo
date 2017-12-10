@@ -1,0 +1,225 @@
+﻿
+@font-face {
+    font-family: 'wYekan';
+    src:url('../fonts/wYekan.eot?#') format('eot'),    
+          url('../fonts/wYekan.woff') format('woff'),
+          url('../fonts/wYekan.ttf') format('truetype'); 
+}
+
+body
+{
+   font-family:'wYekan' , 'B Nazanin' ,   'B Tahoma' , Tahoma, 'Open Sans', Helvetica, sans-serif;
+   
+}
+
+
+/* buttons */
+
+a
+{
+    color: #84B3B9;
+}
+a:hover{color: #F97E76;}
+
+.button
+{
+    font-family: 'wYekan' , 'B Nazanin' , 'B Tahoma' , Tahoma, 'Open Sans' , Helvetica, sans-serif;
+    font-size: 1em;
+    border: 1px solid #84B3B9;
+    color: #84B3B9;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 10px 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: none;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.button:hover
+{ 
+  color: #ffffff;
+	background: #84B3B9;
+       
+     }     	
+
+.input
+{
+    font-family: 'wYekan' , 'B Nazanin' , 'B Tahoma' , Tahoma, 'Open Sans' , Helvetica, sans-serif;
+    font-size: 0.8725em;
+    color: #555555;
+    padding: 7px 8px 7px 8px;
+    width: 98%;
+    background: #FFFFFF;
+    border: 1px solid rgba(226, 226, 226, 1);
+    outline: none;
+    -webkit-appearance: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}	
+
+
+
+.input:focus, textarea1:focus, select:focus, button1:focus
+{
+   -webkit-transition:0.9s;
+	-o-transition:0.9s;
+	-moz-transition:0.9s;
+	transition:0.9s;
+	box-shadow: 0px 0px 1px rgba(154, 153, 162, 0.69);
+	-webkit-box-shadow:0px 0px 1px rgba(154, 153, 162, 0.69);
+	-moz-box-shadow0px 0px 1px rgba(154, 153, 162, 0.69);
+	-o-box-shadow: 0px 0px 1px rgba(154, 153, 162, 0.69);
+}
+
+.select
+{ margin: 3px 0px 3px 0px;
+   font-family:'wYekan' , 'B Nazanin' ,   'B Tahoma' , Tahoma, 'Open Sans', Helvetica, sans-serif;
+    border: 1px solid rgba(226, 226, 226, 1);
+    outline: none;
+    /-webkit-appearance: none;
+    width: 100%;
+    font-size: 0.9em;
+     padding: 7px 8px 7px 8px;
+}
+.select:hover
+{
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+	
+
+
+/******************************************************************
+This is the buttons and inputs CSS
+******************************************************************/
+
+
+
+.Reg
+{
+    background-image: url('../Icon/Reg.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+  
+}
+
+.Reg:hover
+{
+    background-image: url('../Icon/Reg.png');
+     background-position: center bottom;
+}
+
+.Shetab
+{
+    background-image: url('../Icon/Shetab_logo.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+   
+}
+
+.Shetab:hover
+{
+    background-position: center bottom;
+    background-image: url('../Icon/Shetab_logo.png');
+}
+
+ .PagerNormal
+{ 
+   font-family:'wYekan' , 'B Nazanin' ,   'B Tahoma' , Tahoma, 'Open Sans', Helvetica, sans-serif;
+    color: #999999;
+   
+    padding: 5px 8px;
+    text-decoration: none;
+   
+   
+ }
+
+.PagerNormal:hover
+{
+  
+  
+    color: #fcb95b;
+   
+}
+.NextPrevious
+{
+  font-family:'wYekan' , 'B Nazanin' ,   'B Tahoma' , Tahoma, 'Open Sans', Helvetica, sans-serif;
+    color: #999999;
+   
+    padding: 5px 12px;
+    text-decoration: none;
+    
+  
+}
+.NextPrevious:hover
+{
+  
+  color: #fcb95b;
+   
+   
+}
+ 
+  .PagerCurrent
+{   font-family:'wYekan' , 'B Nazanin' ,   'B Tahoma' , Tahoma, 'Open Sans', Helvetica, sans-serif;
+    font: 11pt ;
+   
+    padding: 5px 8px 5px 8px;
+   
+    color: #fcb95b;
+   
+     font-weight: bold; }
+
+
+
+
+
+.Last
+{font-family:'wYekan' , 'B Nazanin' ,   'B Tahoma' , Tahoma, 'Open Sans', Helvetica, sans-serif;
+     font: 10pt ;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    padding: 5px 8px;
+    text-decoration: none;
+  
+    background-color: #F97E76;
+  
+}
+.Last:hover
+{
+    background-color: #2483b3;
+    color: #FFFFFF;cursor: pointer;
+}
+
+    
+.First
+{font-family:'wYekan' , 'B Nazanin' ,   'B Tahoma' , Tahoma, 'Open Sans', Helvetica, sans-serif;
+     font: 10pt ;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    padding: 5px 8px;
+    text-decoration: none;
+    background-color: #F97E76;
+   
+}
+.First:hover{background-color: #2483b3;
+    color: #FFFFFF;cursor: pointer;}
+    
+    .framePager
+{
+    border: 1px solid #EAEAEA;
+}
